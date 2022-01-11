@@ -96,6 +96,7 @@
     <OutDir>.\GLRelease\</OutDir>
     <IntDir>.\GLRelease\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <TargetName>glqwcl</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='GLDebug|Win32'">
     <ClCompile>
