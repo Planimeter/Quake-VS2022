@@ -81,6 +81,7 @@
     <OutDir>.\release_gl\</OutDir>
     <IntDir>.\release_gl\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <TargetName>glquake</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='GL Debug|Win32'">
     <OutDir>.\debug_gl\</OutDir>
