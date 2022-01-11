@@ -133,6 +133,7 @@
       <SubSystem>Windows</SubSystem>
       <OutputFile>.\release_gl\glquake.exe</OutputFile>
       <AdditionalDependencies>.\dxsdk\sdk\lib\dxguid.lib;comctl32.lib;winmm.lib;wsock32.lib;opengl32.lib;glu32.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='GL Debug|Win32'">
